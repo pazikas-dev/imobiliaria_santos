@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: Tahoma;
+    padding: 30px auto;
+    text-align: center;
+    z-index: auto;
+}
+
+p {
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.logotipo {
+    filter: drop-shadow(10px 10px 15px rgb(255, 255, 255));
+    width: 180px;
+}
+
+.header {
+    background-color: #afddfb;
+    margin-bottom: 1px;
+    padding: 0.5px;
+    border-bottom: 2px solid #176fa5;
+    
+
+    & .img {
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    & p {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        text-align: center;
+
+        & a {
+            font-size: 18px;
+            color: #1d1d1d;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px;
+
+
+        }
+    }
+}
+.container {
+    margin-top: 50px;
+    padding-top: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+.destaque-azul{
+    color: #1c81c0;
+}
+
+.destaque-amarelo {
+    color: #fff81b;
+}
+
+
+#sobre{
+    & h1{
+        color: #1d1d1d;
+        margin-bottom: 5px;
+    }
+    & h2 {
+        color: #1c81c0;
+        font-weight: normal;
+        margin-top: 0;
+    }
+    & img {
+        width: 450px;
+    }
+}
+
+#servicos {
+    background-image: linear-gradient(45deg, rgb(17, 221, 204), #1d80c1 );
+    color: #ffffff;
+    line-height: 42px;
+    border-top:  1px solid #176fa5;
+    border-bottom:  1px solid #176fa5;
+    & h3 {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+    & p {
+        width: 700px;
+        text-align: center;
+        font-size: 22px;
+    }
+    & ul {
+        width: 135px;
+        margin: 40px auto 40px auto;
+        text-align: left;
+        font-size: 22px;
+        padding-bottom: 15px;
+        list-style: none;
+    }
+}
+
+#corretores {
+    & h3 {
+    font-size: 28px;
+    color: #1c81c0;
+    line-height: 42px;
+    }  
+
+    & p {
+        width: 700px;
+        text-align: center;
+        font-size: 22px;
+
+        & a {
+            line-height: 60px;
+            text-decoration: none;
+            background-color: #1c81c0;
+            border-radius: 25px;
+            padding: 8px;
+            font-size: 18px;
+            color: #ffffff;
+            box-shadow: 2px 12px 20px -10px black;
+            margin-top: 50px;
+            line-height: 80px;
+        }
+    }
+    & img {
+        width: 450px;
+    }
+}
+
+#contato {
+    background-image: linear-gradient(45deg, rgb(17, 221, 204), #1d80c1 );
+    border-top:  1px solid #176fa5;
+    border-bottom:  1px solid #176fa5;
+    & h3 {
+        color: #ffffff;
+        line-height: 42px;
+        font-size: 28px;
+        padding-top: 30px;
+    }
+
+    & iframe {
+        border-radius: 5px;
+    }
+
+    & p {
+        color: #ffffff;
+        background-image: linear-gradient(45deg, #494949, #292727);
+        padding: 15px;
+        margin: 30px auto 0 auto;
+        border-radius: 20px;
+    }
+
+    & ul {
+        list-style: none;
+        margin: 0 auto;
+        padding: 30px;
+        width: 210px;
+        
+        & li {
+            margin-top: 5px;
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            padding: 5px;
+            line-height: 25px;
+
+            & a {
+                text-decoration: none;
+                background-color: #ffffff;
+                color: #1d80c1;
+                padding: 2px 5px;
+                border-radius: 5px;
+                display: flex;
+                justify-content:space-around;
+            }
+        } 
+    }
+}
+
+.link1:hover  {
+    border-bottom: 1px solid #1d1d1d;
+}
+.link2:hover  {
+    border-bottom: 1px solid #1d1d1d;
+}
+.link3:hover  {
+    border-bottom: 1px solid #1d1d1d;
+}
+.link4:hover  {
+    border-bottom: 1px solid #1d1d1d;
+}
+
+#corretores a:hover {
+    background-image: linear-gradient(45deg, #807d7d, #353333);
+    color: #e7e7e7;
+}
+
+#contato a:hover {
+    text-decoration: underline;
+    box-shadow: 2px 12px 20px -10px black;
+    
+}
